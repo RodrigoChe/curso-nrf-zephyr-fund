@@ -6,18 +6,18 @@ import re
 import uuid
 
 def to_macro(name):
-    # Converte para maiúsculas e substitui caracteres não alfanuméricos por underscore.
+    # Converte para maiusculas e substitui caracteres nao alfanumericos por underscore.
     return re.sub(r'\W+', '_', name.upper())
 
 def to_filename(name):
-    # Converte para minúsculas e substitui caracteres não alfanuméricos por underscore.
+    # Converte para minusculas e substitui caracteres nao alfanumericos por underscore.
     return re.sub(r'\W+', '_', name.lower())
 
 def uuid_to_encode_args(uuid_str):
     """Converte uma string UUID 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' para os argumentos da macro BT_UUID_128_ENCODE."""
     parts = uuid_str.split('-')
     if len(parts) != 5:
-        raise ValueError("Formato de UUID inválido: " + uuid_str)
+        raise ValueError("Formato de UUID invalido: " + uuid_str)
     return f"0x{parts[0]}, 0x{parts[1]}, 0x{parts[2]}, 0x{parts[3]}, 0x{parts[4]}"
 
 def get_perm(perm_type, props):
@@ -28,7 +28,7 @@ def get_perm(perm_type, props):
             return f"BT_GATT_PERM_{perm_type.upper()}_ENCRYPT"
         elif sec[perm_type] == "authen":
             return f"BT_GATT_PERM_{perm_type.upper()}_AUTHEN"
-    # Se não houver segurança, ou for "none", retorna a permissão padrão.
+    # Se nao houver seguranca, ou for "none", retorna a permissao padrao.
     return f"BT_GATT_PERM_{perm_type.upper()}"
 
 def gen_header(service):
@@ -46,16 +46,16 @@ def gen_header(service):
     header.append(f"// Service UUID")
     header.append(f"#define {service_macro}_UUID BT_UUID_128_ENCODE({service_uuid_args})\n")
     
-    # Gera defines de UUID para cada característica
+    # Gera defines de UUID para cada caracteristica
     for char in service["characteristics"]:
         char_macro = to_macro(char["name"]) + "_CHAR"
         header.append(f"// {char['name']} characteristic")
         header.append(f"#define {char_macro}_UUID BT_UUID_128_ENCODE({uuid_to_encode_args(char['UUID'])})\n")
     
-    # Protótipo para a função de inicialização
+    # Prototipo para a funcao de inicializacao
     header.append(f"int {to_filename(service_name)}_init(void);")
     
-    # Para cada característica com notify, adiciona protótipo para função de notificação.
+    # Para cada caracteristica com notify, adiciona prototipo para funcao de notificacao.
     for char in service["characteristics"]:
         props = char.get("properties", {})
         if props.get("notify", False):
@@ -98,16 +98,16 @@ def gen_source(service):
     source.append("#include <zephyr/logging/log.h>\n")
     source.append(f"LOG_MODULE_REGISTER({filename_base}, LOG_LEVEL_INF);\n")
     
-    # Declaração de variáveis globais para características de leitura e flags para notificações.
+    # Declaracao de variaveis globais para caracteristicas de leitura e flags para notificacoes.
     for char in service["characteristics"]:
         props = char.get("properties", {})
         if props.get("read", False):
             var_name = f"{to_filename(char['name'])}_var"
             ctype = props.get("type", "uint8_t")
-            source.append(f"// Variável global para a característica de leitura \"{char['name']}\".")
+            source.append(f"// Variavel global para a caracteristica de leitura \"{char['name']}\".")
             source.append(f"static {ctype} {var_name};\n")
         if props.get("notify", False):
-            source.append(f"// Flag global para notificações de \"{char['name']}\".")
+            source.append(f"// Flag global para notificacoes de \"{char['name']}\".")
             source.append(f"bool {to_filename(char['name'])}_notify_enabled;\n")
             source.append(f"""static void {to_filename(char['name'])}_ccc_change(const struct bt_gatt_attr *attr, uint16_t value)
 {{
@@ -115,7 +115,7 @@ def gen_source(service):
     LOG_INF("{char['name']} notifications %s", {to_filename(char['name'])}_notify_enabled ? "enabled" : "disabled");
 }}\n""")
     
-    # Gera os callbacks para cada característica.
+    # Gera os callbacks para cada caracteristica.
     callback_names = {}
     for char in service["characteristics"]:
         props = char.get("properties", {})
@@ -131,9 +131,9 @@ def gen_source(service):
         if stubs:
             source.append("\n".join(stubs) + "\n")
     
-    # Geração do bloco BT_GATT_SERVICE_DEFINE.
-    attr_index = 1  # índice de atributo (depois do serviço primário)
-    notify_info = []  # para armazenar informações necessárias para notificações
+    # Geracao do bloco BT_GATT_SERVICE_DEFINE.
+    attr_index = 1  # indice de atributo (depois do servico primario)
+    notify_info = []  # para armazenar informacoes necessarias para notificacoes
     
     source.append("BT_GATT_SERVICE_DEFINE({0}_svc,".format(filename_base))
     source.append("    BT_GATT_PRIMARY_SERVICE(BT_UUID_DECLARE_128({0}_UUID)),"
@@ -142,7 +142,7 @@ def gen_source(service):
     for char in service["characteristics"]:
         char_macro = to_macro(char["name"]) + "_CHAR"
         props = char.get("properties", {})
-        # Define as propriedades da característica.
+        # Define as propriedades da caracteristica.
         prop_list = []
         if props.get("read", False):
             prop_list.append("BT_GATT_CHRC_READ")
@@ -154,7 +154,7 @@ def gen_source(service):
             prop_list.append("BT_GATT_CHRC_INDICATE")
         prop_str = " | ".join(prop_list) if prop_list else "0"
         
-        # Define as permissões, levando em conta o objeto "security" se presente.
+        # Define as permissoes, levando em conta o objeto "security" se presente.
         perm_list = []
         if props.get("read", False):
             perm_list.append(get_perm("read", props))
@@ -173,7 +173,7 @@ def gen_source(service):
         source.append("                           {0}, {1}, {2}),".format(read_cb, write_cb, value_ptr))
         value_attr_index = attr_index + 1
         attr_index += 2
-        # Se notificações estiverem habilitadas, adiciona o CCC com permissões de segurança configuradas.
+        # Se notificacoes estiverem habilitadas, adiciona o CCC com permissoes de seguranca configuradas.
         if props.get("notify", False):
             ccc_perms = "BT_GATT_PERM_READ | BT_GATT_PERM_WRITE"
             sec = props.get("security", {})
@@ -189,18 +189,18 @@ def gen_source(service):
         source[-1] = source[-1].rstrip(",")
     source.append(");")
     
-    # Gera funções para envio de notificação para características habilitadas para notify.
+    # Gera funcoes para envio de notificacao para caracteristicas habilitadas para notify.
     for info in notify_info:
         char_name, ctype, value_index = info
         source.append(f"""
-/* Envia notificação para a característica {char_name} */
+/* Envia notificacao para a caracteristica {char_name} */
 int send_{char_name}_notification({ctype} {char_name})
 {{
     {char_name}_var = {char_name};
     if (!{char_name}_notify_enabled) {{
         return -EACCES;
     }}
-    /* O atributo de valor está assumido no índice {value_index} na estrutura do serviço. */
+    /* O atributo de valor esta assumido no indice {value_index} na estrutura do servico. */
     return bt_gatt_notify(NULL, &{filename_base}_svc.attrs[{value_index}],
                             &{char_name}_var, sizeof({char_name}_var));
 }}
@@ -214,9 +214,9 @@ int send_{char_name}_notification({ctype} {char_name})
     return "\n".join(source)
 
 def main():
-    parser = argparse.ArgumentParser(description="Gera arquivos para serviço BLE customizado a partir de JSON")
-    parser.add_argument("-json", required=True, help="Arquivo JSON com a descrição do serviço")
-    parser.add_argument("--generate-uuid", action="store_true", help="Gera novos UUIDs aleatórios, ignorando os do JSON")
+    parser = argparse.ArgumentParser(description="Gera arquivos para servico BLE customizado a partir de JSON")
+    parser.add_argument("-json", required=True, help="Arquivo JSON com a descricao do servico")
+    parser.add_argument("--generate-uuid", action="store_true", help="Gera novos UUIDs aleatorios, ignorando os do JSON")
     args = parser.parse_args()
 
     with open(args.json, "r") as f:
@@ -224,7 +224,7 @@ def main():
     
     service = data.get("service")
     if not service:
-        print("O JSON não contém a chave 'service'.")
+        print("O JSON nao contem a chave 'service'.")
         return
 
     if args.generate_uuid:
