@@ -1,0 +1,41 @@
+{
+  "service": {
+    "name": "Temperature Sensor Service",
+    "UUID": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "description": "Service for a temperature sensor.",
+    "characteristics": [
+      {
+        "name": "Temp Data",
+        "UUID": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+        "properties": {
+          "type": "int16_t",
+          "read": true,
+          "write": false,
+          "notify": true,
+          "indicate": false,
+          "security": {
+            "read": "none",
+            "notify": "none"
+          }
+        },
+        "description": "Contains reading from sensor"
+      },
+      {
+        "name": "Sampling Interval",
+        "UUID": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+        "properties": {
+          "type": "uint8_t",
+          "read": true,
+          "write": true,
+          "notify": false,
+          "indicate": false,
+          "security": {
+            "read": "none",
+            "notify": "none"
+          }
+        },
+        "description": "Sets sampling interval in seconds"
+      }
+    ]
+  }
+}
