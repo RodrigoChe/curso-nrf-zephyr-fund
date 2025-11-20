@@ -1,0 +1,16 @@
+mainmenu "Blinky Application Configuration"
+config BLINK_ENABLE
+    bool "Enable Blinking LED"
+    default y
+    help
+      Enable or disable the blinking LED functionality in the application.
+
+config BLINK_INTERVAL
+    int "Blink Interval (ms)"
+    default 1000
+    depends on BLINK_ENABLE
+    help
+      Set the interval (in milliseconds) for how often the LED should blink.
+
+
+source "Kconfig.zephyr"
