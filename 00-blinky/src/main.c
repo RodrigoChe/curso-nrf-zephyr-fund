@@ -8,9 +8,6 @@
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
 
-/* 1000 msec = 1 sec */
-#define SLEEP_TIME_MS   1000
-
 /* The devicetree node identifier for the "led0" alias. */
 #define LED0_NODE DT_ALIAS(led0)
 
@@ -34,6 +31,9 @@ int main(void)
 		return 0;
 	}
 
+	printf("Hello World! %s\r\n", CONFIG_BOARD_TARGET);
+	
+#ifdef CONFIG_BLINK_ENABLE
 	while (1) {
 		ret = gpio_pin_toggle_dt(&led);
 		if (ret < 0) {
@@ -42,7 +42,9 @@ int main(void)
 
 		led_state = !led_state;
 		printf("LED state: %s\n", led_state ? "ON" : "OFF");
-		k_msleep(SLEEP_TIME_MS);
+		k_msleep(CONFIG_BLINK_INTERVAL);
+		//k_msleep(1000);
 	}
+#endif
 	return 0;
 }
