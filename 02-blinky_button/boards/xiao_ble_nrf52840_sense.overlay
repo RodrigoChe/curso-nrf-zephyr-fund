@@ -20,7 +20,15 @@
 		};
 	};
 
+	leds {
+		compatible = "gpio-leds";
+		externalled: external-led {
+			gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>;
+			label = "External LED";
+		};
+	};
 	aliases {
 		sw0 = &sw0;
+		externalled = &externalled;
 	};
 };

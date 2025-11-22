@@ -3,14 +3,15 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
  #include <zephyr/kernel.h>
- #include <zephyr/drivers/gpio.h>
+ #include <zephyr/drivers/gpio.h> // This red sub can be turn off after add configuration in vscode settings 
  
  #define LED0_NODE   DT_ALIAS(led0)
  #define BUTTON_NODE DT_ALIAS(sw0)
+ #define LED_EXT_NODE DT_ALIAS(externalled)
  
  static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);
+ static const struct gpio_dt_spec led_ext = GPIO_DT_SPEC_GET(LED_EXT_NODE, gpios);
  static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);
  
  int main(void)
@@ -27,6 +28,11 @@
      if (ret < 0) {
          return -1;
      }
+
+     ret = gpio_pin_configure_dt(&led_ext, GPIO_OUTPUT_ACTIVE);
+     if (ret < 0) {
+         return -1;
+     }
  
      ret = gpio_pin_configure_dt(&button, GPIO_INPUT);
      if (ret < 0) {
@@ -39,6 +45,7 @@
          int current = gpio_pin_get_dt(&button);
          if (current == 0 && last_state == 1) {
              gpio_pin_toggle_dt(&led);
+             gpio_pin_toggle_dt(&led_ext);
          }
          last_state = current;
          k_msleep(20); // Para não travar o while loop
