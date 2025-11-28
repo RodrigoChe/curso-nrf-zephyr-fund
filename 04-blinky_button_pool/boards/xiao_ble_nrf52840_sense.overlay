@@ -18,9 +18,14 @@
 			gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
 			label = "Switch 0";
 		};
+		sw1: sw1 {
+			gpios = <&gpio1 13 GPIO_ACTIVE_HIGH>;
+			label = "Switch 1";
+		};
 	};
 
 	aliases {
 		sw0 = &sw0;
+		sw1 = &sw1;
 	};
 };
