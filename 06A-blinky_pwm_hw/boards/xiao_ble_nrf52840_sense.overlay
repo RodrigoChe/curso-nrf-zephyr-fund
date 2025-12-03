@@ -1,5 +1,20 @@
+//Change properties of existing nodes.
 &pwm0 {
 	status = "okay";
+};
+
+&pwm1 {
+	status = "okay";
+	pinctrl-0 = <&pwm_ext_default>;
+	pinctrl-1 = <&pwm_ext_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&pwm2 {
+	status = "okay";
+	pinctrl-0 = <&pwm_ext_green_default>;
+	pinctrl-1 = <&pwm_ext_green_sleep>;
+	pinctrl-names = "default", "sleep";
 };
 
 &pinctrl {
@@ -12,8 +27,72 @@
 
 	pwm0_sleep: pwm0_sleep {
 		group1 {
-			psels = <NRF_PSEL(PWM_OUT0, 0, 26)>; //Led Vermelho
-			low-power-enable;
+			psels = <NRF_PSEL(PWM_OUT0, 0, 26)>; 
+			/delete-property/ low-power-enable;
+		};
+	};	
+
+	pwm_ext_default: pwm_ext_default {
+		group1 {
+			psels = <NRF_PSEL(PWM_OUT0, 0, 3)>;  //Led ext Vermelho
+			nordic,invert;
 		};
 	};
+
+	pwm_ext_sleep: pwm_ext_sleep {
+		group1 {
+			psels = <NRF_PSEL(PWM_OUT0, 0, 3)>;
+			/delete-property/ low-power-enable;
+		};
+	};	
+
+	pwm_ext_green_default: pwm_ext_green_default {
+		group1 {
+			psels = <NRF_PSEL(PWM_OUT0, 1, 12)>;  //Led ext Verde
+			nordic,invert;
+		};
+	};
+
+	pwm_ext_green_sleep: pwm_ext_green_sleep {
+		group1 {
+			psels = <NRF_PSEL(PWM_OUT0, 1, 12)>;
+			/delete-property/ low-power-enable;
+		};
+	};	
+};
+//This create now proprierties in the device tree
+/ {
+	pwmleds {
+		pwm_led_ext_red: pwm_led_ext_red {
+			pwms = <&pwm1 0 PWM_MSEC(50) PWM_POLARITY_INVERTED>;
+		};
+
+		pwm_led_ext_green: pwm_led_ext_green {
+			pwms = <&pwm2 0 PWM_MSEC(100) PWM_POLARITY_INVERTED>;
+		};
+	};
+
+	buttons {
+		compatible = "gpio-keys";
+		sw0: sw0 {
+			gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
+			label = "Push button";
+		};
+
+		sw1: sw1 {
+			gpios = <&gpio1 13 GPIO_ACTIVE_HIGH>;
+			label = "Swtich";
+		};
+	};
+
+	aliases {
+		pwm-ext-led-red = &pwm_led_ext_red;
+		pwm-led-ext-green = &pwm_led_ext_green;
+		sw0 = &sw0;
+		sw1 = &sw1;
+	};
+};
+
+&uart0 {
+	status = "disabled";
 };
