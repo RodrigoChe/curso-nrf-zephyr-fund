@@ -1,5 +1,6 @@
 / {
     aliases {
         work-i2c = &i2c0;
+        pin-i2c = &i2c1;
     };
 };

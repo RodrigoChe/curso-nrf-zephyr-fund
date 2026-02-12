@@ -1,0 +1,18 @@
+// / {
+// 	aliases {
+// 		aht = &aht10;
+// 	};
+// };
+
+&i2c1 {
+	status = "okay";
+
+	aht10: aht10@38 {
+		//compatible = "renesas,hs300x";
+		compatible = "aosong,dht20";
+		reg = <0x38>;
+		#address-cells = <1>;
+		#size-cells = <0>;
+		label = "AHT10";
+	};
+};

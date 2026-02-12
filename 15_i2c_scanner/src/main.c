@@ -15,6 +15,7 @@
 LOG_MODULE_REGISTER(i2c_scanner, LOG_LEVEL_INF);
 
 #define I2C_NODE DT_ALIAS(work_i2c)
+#define I2C_1_NODE DT_ALIAS(pin_i2c)
 
 int main(void)
 {
@@ -27,10 +28,17 @@ int main(void)
 		return -1;
 	}
 
+	const struct device *i2c_dev_1 = DEVICE_DT_GET(I2C_1_NODE);
+    	if (i2c_dev_1 == NULL || !device_is_ready(i2c_dev_1)) {
+		LOG_ERR("I2C: Device driver not found.");
+		return -1;
+	}
+
     uint8_t buffer = 0;
 	uint8_t ret = 0;
 	
 	i2c_configure(i2c_dev, I2C_SPEED_SET(I2C_SPEED_STANDARD));
+	i2c_configure(i2c_dev_1, I2C_SPEED_SET(I2C_SPEED_STANDARD));
 	
 	for (uint8_t i = 0; i <= 0x7F; i++) {	
 
@@ -44,7 +52,21 @@ int main(void)
 		}
 
 	}
-	LOG_INF("Scanning done");
+	LOG_INF("Scanning I2C 0 done");
+
+		for (uint8_t i = 0; i <= 0x7F; i++) {	
+
+        ret = i2c_reg_read_byte(i2c_dev_1, i, 0, &buffer);
+
+        if (ret == 0) {
+			LOG_INF("0x%2x FOUND", i);
+		}
+		else {
+			LOG_DBG("error %d", ret);
+		}
+
+	}
+	LOG_INF("Scanning I2C 1 done");
 	return 0;
 
 }
