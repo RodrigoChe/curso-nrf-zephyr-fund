@@ -1,0 +1,585 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/media/rodrigo-che/_files/zephyr_curso/exercicios/curso-nrf-zephyr-fund/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ADXL362_CMD_READ_REG	17_adxl362_dt/src/main.c	/^#define ADXL362_CMD_READ_REG /;"	d	file:
+ADXL362_CMD_WRITE_REG	17_adxl362_dt/src/main.c	/^#define ADXL362_CMD_WRITE_REG /;"	d	file:
+ADXL362_MEASURE_MODE	17_adxl362_dt/src/main.c	/^#define ADXL362_MEASURE_MODE /;"	d	file:
+ADXL362_REG_DEVID_AD	17_adxl362_dt/src/main.c	/^#define ADXL362_REG_DEVID_AD /;"	d	file:
+ADXL362_REG_POWER_CTL	17_adxl362_dt/src/main.c	/^#define ADXL362_REG_POWER_CTL /;"	d	file:
+ADXL362_REG_XDATA_L	17_adxl362_dt/src/main.c	/^#define ADXL362_REG_XDATA_L /;"	d	file:
+ADXL362_REG_YDATA_L	17_adxl362_dt/src/main.c	/^#define ADXL362_REG_YDATA_L /;"	d	file:
+ADXL362_REG_ZDATA_L	17_adxl362_dt/src/main.c	/^#define ADXL362_REG_ZDATA_L /;"	d	file:
+BMP280_ADDR	16_bmp280_nodt/src/main.c	/^#define BMP280_ADDR /;"	d	file:
+BMP280_ADDR	17_bmp280_dt/src/main.c	/^#define BMP280_ADDR /;"	d	file:
+BMP280_NODE	17_bmp280_dt/src/main.c	/^#define BMP280_NODE /;"	d	file:
+BMP280_REG_CALIB	16_bmp280_nodt/src/main.c	/^#define BMP280_REG_CALIB /;"	d	file:
+BMP280_REG_CALIB	17_bmp280_dt/src/main.c	/^#define BMP280_REG_CALIB /;"	d	file:
+BMP280_REG_ID	16_bmp280_nodt/src/main.c	/^#define BMP280_REG_ID /;"	d	file:
+BMP280_REG_ID	17_bmp280_dt/src/main.c	/^#define BMP280_REG_ID /;"	d	file:
+BMP280_REG_TEMP_MSB	16_bmp280_nodt/src/main.c	/^#define BMP280_REG_TEMP_MSB /;"	d	file:
+BMP280_REG_TEMP_MSB	17_bmp280_dt/src/main.c	/^#define BMP280_REG_TEMP_MSB /;"	d	file:
+BUTTON_NODE	02-blinky_button/src/main.c	/^ #define BUTTON_NODE /;"	d	file:
+BUTTON_NODE	03-blinky_button_int/src/main.c	/^ #define BUTTON_NODE /;"	d	file:
+BUTTON_NODE	08-fault_button/src/main.c	/^ #define BUTTON_NODE /;"	d	file:
+BUTTON_NODE	12-blinky_int_disable/src/main.c	/^ #define BUTTON_NODE /;"	d	file:
+BUTTON_NODE	13-button_uart_disable/src/main.c	/^ #define BUTTON_NODE /;"	d	file:
+BUTTON_NODE	32a-bmp280_msgq/src/main.c	/^#define BUTTON_NODE /;"	d	file:
+BUTTON_NODE	32b-bmp180_msgq/src/main.c	/^#define BUTTON_NODE /;"	d	file:
+BUTTON_NODE	35-uart_async_fifo/src/main.c	/^#define BUTTON_NODE /;"	d	file:
+BUTTON_NODE	36-uart_async_fifo_stat/src/main.c	/^#define BUTTON_NODE /;"	d	file:
+CONFIG_GNSS_NMEA_LOW_POWER	14_gnss_nmea/Kconfig	/^config GNSS_NMEA_LOW_POWER$/;"	c	menu:GNSS NMEA Parser
+CONFIG_TILT_REF_X	19_tilt_sensor/Kconfig	/^config TILT_REF_X$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_REF_X	20_motion_int_sensor/Kconfig	/^config TILT_REF_X$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_REF_X	33_tilt_sensor_msgq/Kconfig	/^config TILT_REF_X$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_REF_Y	19_tilt_sensor/Kconfig	/^config TILT_REF_Y$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_REF_Y	20_motion_int_sensor/Kconfig	/^config TILT_REF_Y$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_REF_Y	33_tilt_sensor_msgq/Kconfig	/^config TILT_REF_Y$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_REF_Z	19_tilt_sensor/Kconfig	/^config TILT_REF_Z$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_REF_Z	20_motion_int_sensor/Kconfig	/^config TILT_REF_Z$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_REF_Z	33_tilt_sensor_msgq/Kconfig	/^config TILT_REF_Z$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_TOLERANCE_PERCENT	19_tilt_sensor/Kconfig	/^config TILT_TOLERANCE_PERCENT$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_TOLERANCE_PERCENT	20_motion_int_sensor/Kconfig	/^config TILT_TOLERANCE_PERCENT$/;"	c	menu:TILT SENSOR
+CONFIG_TILT_TOLERANCE_PERCENT	33_tilt_sensor_msgq/Kconfig	/^config TILT_TOLERANCE_PERCENT$/;"	c	menu:TILT SENSOR
+DELAY_MS	06C_blinky_pwm_rgb/src/main.c	/^#define DELAY_MS /;"	d	file:
+DEVICE_NAME	41-beacon/src/main.c	/^#define DEVICE_NAME /;"	d	file:
+DEVICE_NAME	42-bmp180_beacon/src/main.c	/^#define DEVICE_NAME /;"	d	file:
+DEVICE_NAME	43-bmp180_uuid128/src/main.c	/^#define DEVICE_NAME /;"	d	file:
+DEVICE_NAME	44-bmp180_beacon_conn/src/main.c	/^#define DEVICE_NAME /;"	d	file:
+DEVICE_NAME	45-bmp180_beacon_gatt/src/main.c	/^#define DEVICE_NAME /;"	d	file:
+DEVICE_NAME	46-bmp180_beacon_dfu/src/main.c	/^#define DEVICE_NAME /;"	d	file:
+DEVICE_NAME_LEN	41-beacon/src/main.c	/^#define DEVICE_NAME_LEN /;"	d	file:
+DEVICE_NAME_LEN	42-bmp180_beacon/src/main.c	/^#define DEVICE_NAME_LEN /;"	d	file:
+DEVICE_NAME_LEN	43-bmp180_uuid128/src/main.c	/^#define DEVICE_NAME_LEN /;"	d	file:
+DEVICE_NAME_LEN	44-bmp180_beacon_conn/src/main.c	/^#define DEVICE_NAME_LEN /;"	d	file:
+DEVICE_NAME_LEN	45-bmp180_beacon_gatt/src/main.c	/^#define DEVICE_NAME_LEN /;"	d	file:
+DEVICE_NAME_LEN	46-bmp180_beacon_dfu/src/main.c	/^#define DEVICE_NAME_LEN /;"	d	file:
+FADE_STEP	06C_blinky_pwm_rgb/src/main.c	/^#define FADE_STEP /;"	d	file:
+GNSS NMEA Parser	14_gnss_nmea/Kconfig	/^menu "GNSS NMEA Parser"$/;"	m
+GNSS_FIX_TIMEOUT	14_gnss_nmea/src/main.c	/^#define GNSS_FIX_TIMEOUT /;"	d	file:
+GNSS_NMEA_LOW_POWER	14_gnss_nmea/Kconfig	/^config GNSS_NMEA_LOW_POWER$/;"	c	menu:GNSS NMEA Parser
+GRAVITY_M_S2	17_adxl362_dt/src/main.c	/^#define GRAVITY_M_S2 /;"	d	file:
+I2C_NODE	15_i2c_scanner/src/main.c	/^#define I2C_NODE /;"	d	file:
+I2C_NODE	16_bmp280_nodt/src/main.c	/^#define I2C_NODE /;"	d	file:
+I2C_NODE	16_lsm6dsl_nodt/src/main.c	/^#define I2C_NODE /;"	d	file:
+LED0_NODE	00-blinky/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	02-blinky_button/src/main.c	/^ #define LED0_NODE /;"	d	file:
+LED0_NODE	03-blinky_button_int/src/main.c	/^ #define LED0_NODE /;"	d	file:
+LED0_NODE	04-blinky_button_pool/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	08-fault_button/src/main.c	/^ #define LED0_NODE /;"	d	file:
+LED0_NODE	12-blinky_int_disable/src/main.c	/^ #define LED0_NODE /;"	d	file:
+LED0_NODE	13-button_uart_disable/src/main.c	/^ #define LED0_NODE /;"	d	file:
+LED0_NODE	19_tilt_sensor/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	20_motion_int_sensor/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	21-blinky_timer/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	22-blinky_nrfx_timer/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	23-blinky_workqueue/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	24-blinky_work_delayable/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	25-blinky_thread/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	26-blinky_thread_wrkq/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	27-blinky_enigma/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	33_tilt_sensor_msgq/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED0_NODE	40-zbus_temp_logger/src/main.c	/^#define LED0_NODE /;"	d	file:
+LED1_NODE	19_tilt_sensor/src/main.c	/^#define LED1_NODE /;"	d	file:
+LED1_NODE	25-blinky_thread/src/main.c	/^#define LED1_NODE /;"	d	file:
+LED1_NODE	26-blinky_thread_wrkq/src/main.c	/^#define LED1_NODE /;"	d	file:
+LED1_NODE	27-blinky_enigma/src/main.c	/^#define LED1_NODE /;"	d	file:
+LED1_NODE	33_tilt_sensor_msgq/src/main.c	/^#define LED1_NODE /;"	d	file:
+LED1_NODE	40-zbus_temp_logger/src/main.c	/^#define LED1_NODE /;"	d	file:
+LED2_NODE	26-blinky_thread_wrkq/src/main.c	/^#define LED2_NODE /;"	d	file:
+LED2_NODE	27-blinky_enigma/src/main.c	/^#define LED2_NODE /;"	d	file:
+LED3_NODE	26-blinky_thread_wrkq/src/main.c	/^#define LED3_NODE /;"	d	file:
+LSM6DSL_ADDR	16_lsm6dsl_nodt/src/main.c	/^#define LSM6DSL_ADDR /;"	d	file:
+LSM6DSL_NODE	17_lsm6dsl_dt/src/main.c	/^#define LSM6DSL_NODE /;"	d	file:
+LSM6DSL_SENSITIVITY_2G	16_lsm6dsl_nodt/src/main.c	/^#define LSM6DSL_SENSITIVITY_2G /;"	d	file:
+LSM6DSL_SENSITIVITY_2G	17_lsm6dsl_dt/src/main.c	/^#define LSM6DSL_SENSITIVITY_2G /;"	d	file:
+Log Application	07B-log_subsystem_kconfig/Kconfig	/^menu "Log Application"$/;"	m
+Log Application	07C-log_subsystem_rtt/Kconfig	/^menu "Log Application"$/;"	m
+MSGQ_SIZE	31-thread_msgq/src/main.c	/^#define MSGQ_SIZE /;"	d	file:
+MSGQ_SIZE	32a-bmp280_msgq/src/main.c	/^#define MSGQ_SIZE /;"	d	file:
+MSGQ_SIZE	32b-bmp180_msgq/src/main.c	/^#define MSGQ_SIZE /;"	d	file:
+MSG_SIZE	10-uart_int/src/main.c	/^#define MSG_SIZE /;"	d	file:
+MSG_SIZE	11-uart_async/src/main.c	/^ #define MSG_SIZE /;"	d	file:
+NMEA_BUFFER_SIZE	14_gnss_nmea/src/main.c	/^#define NMEA_BUFFER_SIZE /;"	d	file:
+PRIORITY	25-blinky_thread/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	26-blinky_thread_wrkq/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	27-blinky_enigma/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	28-thread_shared_var/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	29-thread_semaphore/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	30-thread_mutex/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	31-thread_msgq/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	32a-bmp280_msgq/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	32b-bmp180_msgq/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	33_tilt_sensor_msgq/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	34-thread_fifo/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	37-zbus_pub_sub/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	39-zbus_pub_msub/src/main.c	/^#define PRIORITY /;"	d	file:
+PRIORITY	40-zbus_temp_logger/src/main.c	/^#define PRIORITY /;"	d	file:
+PWM_BLUE_NODE	06C_blinky_pwm_rgb/src/main.c	/^#define PWM_BLUE_NODE /;"	d	file:
+PWM_GREEN_NODE	06C_blinky_pwm_rgb/src/main.c	/^#define PWM_GREEN_NODE /;"	d	file:
+PWM_LED_NODE	06A-blinky_pwm_hw/src/main.c	/^#define PWM_LED_NODE /;"	d	file:
+PWM_LED_NODE	06B-blinky_pwm_sw/src/main.c	/^#define PWM_LED_NODE /;"	d	file:
+PWM_RED_NODE	06C_blinky_pwm_rgb/src/main.c	/^#define PWM_RED_NODE /;"	d	file:
+P_PRIORITY	38-zbus_pub_lis/src/main.c	/^#define P_PRIORITY /;"	d	file:
+P_STACK_SIZE	38-zbus_pub_lis/src/main.c	/^#define P_STACK_SIZE /;"	d	file:
+REF_X	19_tilt_sensor/src/main.c	/^#define REF_X /;"	d	file:
+REF_X	33_tilt_sensor_msgq/src/main.c	/^#define REF_X /;"	d	file:
+REF_Y	19_tilt_sensor/src/main.c	/^#define REF_Y /;"	d	file:
+REF_Y	33_tilt_sensor_msgq/src/main.c	/^#define REF_Y /;"	d	file:
+REF_Z	19_tilt_sensor/src/main.c	/^#define REF_Z /;"	d	file:
+REF_Z	33_tilt_sensor_msgq/src/main.c	/^#define REF_Z /;"	d	file:
+REG_CTRL1_XL	16_lsm6dsl_nodt/src/main.c	/^#define REG_CTRL1_XL /;"	d	file:
+REG_CTRL1_XL	17_lsm6dsl_dt/src/main.c	/^#define REG_CTRL1_XL /;"	d	file:
+REG_OUTX_L_XL	16_lsm6dsl_nodt/src/main.c	/^#define REG_OUTX_L_XL /;"	d	file:
+REG_OUTX_L_XL	17_lsm6dsl_dt/src/main.c	/^#define REG_OUTX_L_XL /;"	d	file:
+REG_WHO_AM_I	16_lsm6dsl_nodt/src/main.c	/^#define REG_WHO_AM_I /;"	d	file:
+REG_WHO_AM_I	17_lsm6dsl_dt/src/main.c	/^#define REG_WHO_AM_I /;"	d	file:
+RX_BUF_SIZE	35-uart_async_fifo/src/main.c	/^#define RX_BUF_SIZE /;"	d	file:
+RX_BUF_SIZE	36-uart_async_fifo_stat/src/main.c	/^#define RX_BUF_SIZE /;"	d	file:
+SAADC_SAMPLE_INTERVAL_MS	22-blinky_nrfx_timer/src/main.c	/^    #define SAADC_SAMPLE_INTERVAL_MS /;"	d	file:
+SAMPLING_INTERVAL_CHAR_UUID	45-bmp180_beacon_gatt/src/temperature_sensor_service.h	/^#define SAMPLING_INTERVAL_CHAR_UUID /;"	d
+SAMPLING_INTERVAL_CHAR_UUID	46-bmp180_beacon_dfu/src/temperature_sensor_service.h	/^#define SAMPLING_INTERVAL_CHAR_UUID /;"	d
+SAMPLING_INTERVAL_CHAR_UUID	scripts/temperature_sensor_service.h	/^#define SAMPLING_INTERVAL_CHAR_UUID /;"	d
+SENSOR_NODE	18_lsm6dsl_sensor/src/main.c	/^#define SENSOR_NODE /;"	d	file:
+SENSOR_NODE	19_tilt_sensor/src/main.c	/^#define SENSOR_NODE /;"	d	file:
+SENSOR_NODE	20_motion_int_sensor/src/main.c	/^#define SENSOR_NODE /;"	d	file:
+SENSOR_NODE	33_tilt_sensor_msgq/src/main.c	/^#define SENSOR_NODE /;"	d	file:
+SENSOR_TYPE	42-bmp180_beacon/src/main.c	/^#define SENSOR_TYPE /;"	d	file:
+SENSOR_TYPE	43-bmp180_uuid128/src/main.c	/^#define SENSOR_TYPE /;"	d	file:
+SENSOR_TYPE	44-bmp180_beacon_conn/src/main.c	/^#define SENSOR_TYPE /;"	d	file:
+SENSOR_TYPE	45-bmp180_beacon_gatt/src/main.c	/^#define SENSOR_TYPE /;"	d	file:
+SENSOR_TYPE	46-bmp180_beacon_dfu/src/main.c	/^#define SENSOR_TYPE /;"	d	file:
+SET_RGB	06C_blinky_pwm_rgb/src/main.c	/^#define SET_RGB(/;"	d	file:
+SLEEP_TIME_MS	00-blinky/src/main.c	/^#define SLEEP_TIME_MS /;"	d	file:
+SPIOP	17_adxl362_dt/src/main.c	/^#define SPIOP /;"	d	file:
+SPI_NODE	17_adxl362_dt/src/main.c	/^#define SPI_NODE /;"	d	file:
+STACK_SIZE	25-blinky_thread/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	26-blinky_thread_wrkq/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	27-blinky_enigma/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	28-thread_shared_var/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	29-thread_semaphore/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	30-thread_mutex/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	31-thread_msgq/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	32a-bmp280_msgq/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	32b-bmp180_msgq/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	33_tilt_sensor_msgq/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	34-thread_fifo/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	37-zbus_pub_sub/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	39-zbus_pub_msub/src/main.c	/^#define STACK_SIZE /;"	d	file:
+STACK_SIZE	40-zbus_temp_logger/src/main.c	/^#define STACK_SIZE /;"	d	file:
+SW0_NODE	04-blinky_button_pool/src/main.c	/^#define SW0_NODE /;"	d	file:
+SW1_NODE	04-blinky_button_pool/src/main.c	/^#define SW1_NODE /;"	d	file:
+TEMPERATURE_SENSOR_SERVICE_H	45-bmp180_beacon_gatt/src/temperature_sensor_service.h	/^#define TEMPERATURE_SENSOR_SERVICE_H$/;"	d
+TEMPERATURE_SENSOR_SERVICE_H	46-bmp180_beacon_dfu/src/temperature_sensor_service.h	/^#define TEMPERATURE_SENSOR_SERVICE_H$/;"	d
+TEMPERATURE_SENSOR_SERVICE_H	scripts/temperature_sensor_service.h	/^#define TEMPERATURE_SENSOR_SERVICE_H$/;"	d
+TEMPERATURE_SENSOR_SERVICE_UUID	45-bmp180_beacon_gatt/src/temperature_sensor_service.h	/^#define TEMPERATURE_SENSOR_SERVICE_UUID /;"	d
+TEMPERATURE_SENSOR_SERVICE_UUID	46-bmp180_beacon_dfu/src/temperature_sensor_service.h	/^#define TEMPERATURE_SENSOR_SERVICE_UUID /;"	d
+TEMPERATURE_SENSOR_SERVICE_UUID	scripts/temperature_sensor_service.h	/^#define TEMPERATURE_SENSOR_SERVICE_UUID /;"	d
+TEMP_DATA_CHAR_UUID	45-bmp180_beacon_gatt/src/temperature_sensor_service.h	/^#define TEMP_DATA_CHAR_UUID /;"	d
+TEMP_DATA_CHAR_UUID	46-bmp180_beacon_dfu/src/temperature_sensor_service.h	/^#define TEMP_DATA_CHAR_UUID /;"	d
+TEMP_DATA_CHAR_UUID	scripts/temperature_sensor_service.h	/^#define TEMP_DATA_CHAR_UUID /;"	d
+TEMP_THRESHOLD	40-zbus_temp_logger/src/main.c	/^#define TEMP_THRESHOLD /;"	d	file:
+THREAD_STACK_SIZE	11-uart_async/src/main.c	/^ #define THREAD_STACK_SIZE /;"	d	file:
+TILT SENSOR	19_tilt_sensor/Kconfig	/^menu "TILT SENSOR"$/;"	m
+TILT SENSOR	20_motion_int_sensor/Kconfig	/^menu "TILT SENSOR"$/;"	m
+TILT SENSOR	33_tilt_sensor_msgq/Kconfig	/^menu "TILT SENSOR"$/;"	m
+TILT_REF_X	19_tilt_sensor/Kconfig	/^config TILT_REF_X$/;"	c	menu:TILT SENSOR
+TILT_REF_X	20_motion_int_sensor/Kconfig	/^config TILT_REF_X$/;"	c	menu:TILT SENSOR
+TILT_REF_X	33_tilt_sensor_msgq/Kconfig	/^config TILT_REF_X$/;"	c	menu:TILT SENSOR
+TILT_REF_Y	19_tilt_sensor/Kconfig	/^config TILT_REF_Y$/;"	c	menu:TILT SENSOR
+TILT_REF_Y	20_motion_int_sensor/Kconfig	/^config TILT_REF_Y$/;"	c	menu:TILT SENSOR
+TILT_REF_Y	33_tilt_sensor_msgq/Kconfig	/^config TILT_REF_Y$/;"	c	menu:TILT SENSOR
+TILT_REF_Z	19_tilt_sensor/Kconfig	/^config TILT_REF_Z$/;"	c	menu:TILT SENSOR
+TILT_REF_Z	20_motion_int_sensor/Kconfig	/^config TILT_REF_Z$/;"	c	menu:TILT SENSOR
+TILT_REF_Z	33_tilt_sensor_msgq/Kconfig	/^config TILT_REF_Z$/;"	c	menu:TILT SENSOR
+TILT_TOLERANCE_PERCENT	19_tilt_sensor/Kconfig	/^config TILT_TOLERANCE_PERCENT$/;"	c	menu:TILT SENSOR
+TILT_TOLERANCE_PERCENT	20_motion_int_sensor/Kconfig	/^config TILT_TOLERANCE_PERCENT$/;"	c	menu:TILT SENSOR
+TILT_TOLERANCE_PERCENT	33_tilt_sensor_msgq/Kconfig	/^config TILT_TOLERANCE_PERCENT$/;"	c	menu:TILT SENSOR
+TOL_PCT	19_tilt_sensor/src/main.c	/^#define TOL_PCT /;"	d	file:
+TOL_PCT	33_tilt_sensor_msgq/src/main.c	/^#define TOL_PCT /;"	d	file:
+UART_DEVICE_NODE	10-uart_int/src/main.c	/^#define UART_DEVICE_NODE /;"	d	file:
+UART_DEVICE_NODE	11-uart_async/src/main.c	/^ #define UART_DEVICE_NODE /;"	d	file:
+UART_NODE	09-uart_pool/src/main.c	/^#define UART_NODE /;"	d	file:
+UART_NODE	14_gnss_nmea/src/main.c	/^#define UART_NODE /;"	d	file:
+UART_NODE	35-uart_async_fifo/src/main.c	/^#define UART_NODE /;"	d	file:
+UART_NODE	36-uart_async_fifo_stat/src/main.c	/^#define UART_NODE /;"	d	file:
+Zephyr Kernel	07B-log_subsystem_kconfig/Kconfig	/^menu "Zephyr Kernel"$/;"	m
+Zephyr Kernel	07C-log_subsystem_rtt/Kconfig	/^menu "Zephyr Kernel"$/;"	m
+Zephyr Kernel	14_gnss_nmea/Kconfig	/^menu "Zephyr Kernel"$/;"	m
+Zephyr Kernel	19_tilt_sensor/Kconfig	/^menu "Zephyr Kernel"$/;"	m
+Zephyr Kernel	20_motion_int_sensor/Kconfig	/^menu "Zephyr Kernel"$/;"	m
+Zephyr Kernel	33_tilt_sensor_msgq/Kconfig	/^menu "Zephyr Kernel"$/;"	m
+accel_dev	19_tilt_sensor/src/main.c	/^const struct device *accel_dev = DEVICE_DT_GET(SENSOR_NODE);$/;"	v	typeref:typename:const struct device *
+accel_dev	20_motion_int_sensor/src/main.c	/^const struct device *accel_dev = DEVICE_DT_GET(SENSOR_NODE);$/;"	v	typeref:typename:const struct device *
+accel_dev	33_tilt_sensor_msgq/src/main.c	/^const struct device *accel_dev = DEVICE_DT_GET(SENSOR_NODE);$/;"	v	typeref:typename:const struct device *
+accel_sample	33_tilt_sensor_msgq/src/main.c	/^struct accel_sample {$/;"	s	file:
+acquire_gnss_fix	14_gnss_nmea/src/main.c	/^int acquire_gnss_fix(void) {$/;"	f	typeref:typename:int
+ad	41-beacon/src/main.c	/^static const struct bt_data ad[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+ad	42-bmp180_beacon/src/main.c	/^static const struct bt_data ad[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+ad	43-bmp180_uuid128/src/main.c	/^static const struct bt_data ad[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+ad	44-bmp180_beacon_conn/src/main.c	/^static const struct bt_data ad[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+ad	45-bmp180_beacon_gatt/src/main.c	/^static const struct bt_data ad[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+ad	46-bmp180_beacon_dfu/src/main.c	/^static const struct bt_data ad[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+adxl362_read_reg	17_adxl362_dt/src/main.c	/^int adxl362_read_reg(uint8_t reg, uint8_t *value)$/;"	f	typeref:typename:int
+adxl362_trigger_handler	20_motion_int_sensor/src/main.c	/^void adxl362_trigger_handler(const struct device *dev, const struct sensor_trigger *trigger)$/;"	f	typeref:typename:void
+adxl362_write_reg	17_adxl362_dt/src/main.c	/^int adxl362_write_reg(uint8_t reg, uint8_t value)$/;"	f	typeref:typename:int
+ble_connected	44-bmp180_beacon_conn/src/main.c	/^static bool ble_connected = false;$/;"	v	typeref:typename:bool	file:
+ble_connected	45-bmp180_beacon_gatt/src/main.c	/^static bool ble_connected = false;$/;"	v	typeref:typename:bool	file:
+ble_connected	46-bmp180_beacon_dfu/src/main.c	/^static bool ble_connected = false;$/;"	v	typeref:typename:bool	file:
+bmp180	32b-bmp180_msgq/src/main.c	/^const struct device *bmp180 = DEVICE_DT_GET_ONE(bosch_bmp180);$/;"	v	typeref:typename:const struct device *
+bmp180	40-zbus_temp_logger/src/main.c	/^static const struct device *bmp180 = DEVICE_DT_GET_ONE(bosch_bmp180);$/;"	v	typeref:typename:const struct device *	file:
+bmp180	42-bmp180_beacon/src/main.c	/^const struct device *bmp180 = DEVICE_DT_GET_ONE(bosch_bmp180);$/;"	v	typeref:typename:const struct device *
+bmp180	43-bmp180_uuid128/src/main.c	/^const struct device *bmp180 = DEVICE_DT_GET_ONE(bosch_bmp180);$/;"	v	typeref:typename:const struct device *
+bmp180	44-bmp180_beacon_conn/src/main.c	/^const struct device *bmp180 = DEVICE_DT_GET_ONE(bosch_bmp180);$/;"	v	typeref:typename:const struct device *
+bmp180	45-bmp180_beacon_gatt/src/main.c	/^const struct device *bmp180 = DEVICE_DT_GET_ONE(bosch_bmp180);$/;"	v	typeref:typename:const struct device *
+bmp180	46-bmp180_beacon_dfu/src/main.c	/^const struct device *bmp180 = DEVICE_DT_GET_ONE(bosch_bmp180);$/;"	v	typeref:typename:const struct device *
+bmp180_msg	32b-bmp180_msgq/src/main.c	/^struct bmp180_msg {$/;"	s	file:
+bmp280	17_bmp280_dt/src/main.c	/^static const struct i2c_dt_spec bmp280 = I2C_DT_SPEC_GET(BMP280_NODE);$/;"	v	typeref:typename:const struct i2c_dt_spec	file:
+bmp280	32a-bmp280_msgq/src/main.c	/^const struct device *bmp280 = DEVICE_DT_GET_ONE(bosch_bme280);$/;"	v	typeref:typename:const struct device *
+bmp280_calib_param	16_bmp280_nodt/src/main.c	/^struct bmp280_calib_param {$/;"	s	file:
+bmp280_calib_param	17_bmp280_dt/src/main.c	/^struct bmp280_calib_param {$/;"	s	file:
+bmp280_compensate_temp	16_bmp280_nodt/src/main.c	/^int32_t bmp280_compensate_temp(int32_t adc_T)$/;"	f	typeref:typename:int32_t
+bmp280_compensate_temp	17_bmp280_dt/src/main.c	/^int32_t bmp280_compensate_temp(int32_t adc_T)$/;"	f	typeref:typename:int32_t
+bmp280_msg	32a-bmp280_msgq/src/main.c	/^struct bmp280_msg {$/;"	s	file:
+bmp280_read_calib	16_bmp280_nodt/src/main.c	/^int bmp280_read_calib(const struct device *i2c_dev)$/;"	f	typeref:typename:int
+bmp280_read_calib	17_bmp280_dt/src/main.c	/^int bmp280_read_calib(void)$/;"	f	typeref:typename:int
+bt_ready	41-beacon/src/main.c	/^static void bt_ready(int err)$/;"	f	typeref:typename:void	file:
+bt_ready	42-bmp180_beacon/src/main.c	/^static void bt_ready(int err)$/;"	f	typeref:typename:void	file:
+bt_ready	43-bmp180_uuid128/src/main.c	/^static void bt_ready(int err)$/;"	f	typeref:typename:void	file:
+bt_ready	44-bmp180_beacon_conn/src/main.c	/^static void bt_ready(int err)$/;"	f	typeref:typename:void	file:
+bt_ready	45-bmp180_beacon_gatt/src/main.c	/^static void bt_ready(int err)$/;"	f	typeref:typename:void	file:
+bt_ready	46-bmp180_beacon_dfu/src/main.c	/^static void bt_ready(int err)$/;"	f	typeref:typename:void	file:
+buffer	11-uart_async/src/main.c	/^	 char buffer[MSG_SIZE];$/;"	m	struct:msgq_item_t	typeref:typename:char[]	file:
+button	02-blinky_button/src/main.c	/^ static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button	03-blinky_button_int/src/main.c	/^ static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button	08-fault_button/src/main.c	/^ static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button	12-blinky_int_disable/src/main.c	/^ static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button	13-button_uart_disable/src/main.c	/^ static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button	32a-bmp280_msgq/src/main.c	/^static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button	32b-bmp180_msgq/src/main.c	/^static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button	35-uart_async_fifo/src/main.c	/^static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button	36-uart_async_fifo_stat/src/main.c	/^static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+button_cb_data	03-blinky_button_int/src/main.c	/^ static struct gpio_callback button_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+button_cb_data	12-blinky_int_disable/src/main.c	/^ static struct gpio_callback button_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+button_cb_data	13-button_uart_disable/src/main.c	/^ static struct gpio_callback button_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+button_cb_data	32a-bmp280_msgq/src/main.c	/^static struct gpio_callback button_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+button_cb_data	32b-bmp180_msgq/src/main.c	/^static struct gpio_callback button_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+button_cb_data	35-uart_async_fifo/src/main.c	/^static struct gpio_callback button_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+button_cb_data	36-uart_async_fifo_stat/src/main.c	/^static struct gpio_callback button_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+button_pressed_isr	03-blinky_button_int/src/main.c	/^ void button_pressed_isr(const struct device *dev, struct gpio_callback *cb, uint32_t pins)$/;"	f	typeref:typename:void
+button_pressed_isr	12-blinky_int_disable/src/main.c	/^ void button_pressed_isr(const struct device *dev, struct gpio_callback *cb, uint32_t pins)$/;"	f	typeref:typename:void
+button_pressed_isr	13-button_uart_disable/src/main.c	/^ void button_pressed_isr(const struct device *dev, struct gpio_callback *cb, uint32_t pins)$/;"	f	typeref:typename:void
+button_pressed_isr	32a-bmp280_msgq/src/main.c	/^static void button_pressed_isr(const struct device *dev, struct gpio_callback *cb,$/;"	f	typeref:typename:void	file:
+button_pressed_isr	32b-bmp180_msgq/src/main.c	/^static void button_pressed_isr(const struct device *dev, struct gpio_callback *cb,$/;"	f	typeref:typename:void	file:
+button_pressed_isr	35-uart_async_fifo/src/main.c	/^static void button_pressed_isr(const struct device *dev, struct gpio_callback *cb, uint32_t pins/;"	f	typeref:typename:void	file:
+button_pressed_isr	36-uart_async_fifo_stat/src/main.c	/^static void button_pressed_isr(const struct device *dev, struct gpio_callback *cb, uint32_t pins/;"	f	typeref:typename:void	file:
+calib	16_bmp280_nodt/src/main.c	/^static struct bmp280_calib_param calib;$/;"	v	typeref:struct:bmp280_calib_param	file:
+calib	17_bmp280_dt/src/main.c	/^static struct bmp280_calib_param calib;$/;"	v	typeref:struct:bmp280_calib_param	file:
+cause_fault	08-fault_button/src/main.c	/^ static void cause_fault(void)$/;"	f	typeref:typename:void	file:
+conn_callbacks	44-bmp180_beacon_conn/src/main.c	/^static struct bt_conn_cb conn_callbacks = {$/;"	v	typeref:struct:bt_conn_cb	file:
+conn_callbacks	45-bmp180_beacon_gatt/src/main.c	/^static struct bt_conn_cb conn_callbacks = {$/;"	v	typeref:struct:bt_conn_cb	file:
+conn_callbacks	46-bmp180_beacon_dfu/src/main.c	/^static struct bt_conn_cb conn_callbacks = {$/;"	v	typeref:struct:bt_conn_cb	file:
+connected	44-bmp180_beacon_conn/src/main.c	/^static void connected(struct bt_conn *conn, uint8_t err)$/;"	f	typeref:typename:void	file:
+connected	45-bmp180_beacon_gatt/src/main.c	/^static void connected(struct bt_conn *conn, uint8_t err)$/;"	f	typeref:typename:void	file:
+connected	46-bmp180_beacon_dfu/src/main.c	/^static void connected(struct bt_conn *conn, uint8_t err)$/;"	f	typeref:typename:void	file:
+consumer_a_callback	38-zbus_pub_lis/src/main.c	/^static void consumer_a_callback(const struct zbus_channel *chan)$/;"	f	typeref:typename:void	file:
+consumer_b_callback	38-zbus_pub_lis/src/main.c	/^static void consumer_b_callback(const struct zbus_channel *chan)$/;"	f	typeref:typename:void	file:
+consumer_thread	28-thread_shared_var/src/main.c	/^void consumer_thread(void)$/;"	f	typeref:typename:void
+consumer_thread	29-thread_semaphore/src/main.c	/^void consumer_thread(void)$/;"	f	typeref:typename:void
+consumer_thread	31-thread_msgq/src/main.c	/^void consumer_thread(void)$/;"	f	typeref:typename:void
+consumer_thread	34-thread_fifo/src/main.c	/^void consumer_thread(void)$/;"	f	typeref:typename:void
+consumer_thread	37-zbus_pub_sub/src/main.c	/^void consumer_thread(void)$/;"	f	typeref:typename:void
+consumer_thread	39-zbus_pub_msub/src/main.c	/^void consumer_thread(void)$/;"	f	typeref:typename:void
+counter	30-thread_mutex/src/main.c	/^static uint32_t counter;$/;"	v	typeref:typename:uint32_t	file:
+crash_function	08-fault_button/src/main.c	/^ void crash_function(uint32_t *addr)$/;"	f	typeref:typename:void
+data	31-thread_msgq/src/main.c	/^    uint32_t data;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+data	34-thread_fifo/src/main.c	/^    uint32_t data;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+data	35-uart_async_fifo/src/main.c	/^    char data[];$/;"	m	struct:uart_item	typeref:typename:char[]	file:
+data	36-uart_async_fifo_stat/src/main.c	/^    char data[];$/;"	m	struct:uart_item	typeref:typename:char[]	file:
+data	37-zbus_pub_sub/src/main.c	/^    uint32_t data;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+data	38-zbus_pub_lis/src/main.c	/^    uint32_t data;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+data	39-zbus_pub_msub/src/main.c	/^    uint32_t data;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+data_sample	31-thread_msgq/src/main.c	/^struct data_sample {$/;"	s	file:
+data_sample	34-thread_fifo/src/main.c	/^struct data_sample {$/;"	s	file:
+data_sample	37-zbus_pub_sub/src/main.c	/^struct data_sample {$/;"	s	file:
+data_sample	38-zbus_pub_lis/src/main.c	/^struct data_sample {$/;"	s	file:
+data_sample	39-zbus_pub_msub/src/main.c	/^struct data_sample {$/;"	s	file:
+decrement_thread	30-thread_mutex/src/main.c	/^void decrement_thread(void)$/;"	f	typeref:typename:void
+dig_T1	16_bmp280_nodt/src/main.c	/^    uint16_t dig_T1;$/;"	m	struct:bmp280_calib_param	typeref:typename:uint16_t	file:
+dig_T1	17_bmp280_dt/src/main.c	/^    uint16_t dig_T1;$/;"	m	struct:bmp280_calib_param	typeref:typename:uint16_t	file:
+dig_T2	16_bmp280_nodt/src/main.c	/^    int16_t  dig_T2;$/;"	m	struct:bmp280_calib_param	typeref:typename:int16_t	file:
+dig_T2	17_bmp280_dt/src/main.c	/^    int16_t  dig_T2;$/;"	m	struct:bmp280_calib_param	typeref:typename:int16_t	file:
+dig_T3	16_bmp280_nodt/src/main.c	/^    int16_t  dig_T3;$/;"	m	struct:bmp280_calib_param	typeref:typename:int16_t	file:
+dig_T3	17_bmp280_dt/src/main.c	/^    int16_t  dig_T3;$/;"	m	struct:bmp280_calib_param	typeref:typename:int16_t	file:
+disconnected	44-bmp180_beacon_conn/src/main.c	/^static void disconnected(struct bt_conn *conn, uint8_t reason)$/;"	f	typeref:typename:void	file:
+disconnected	45-bmp180_beacon_gatt/src/main.c	/^static void disconnected(struct bt_conn *conn, uint8_t reason)$/;"	f	typeref:typename:void	file:
+disconnected	46-bmp180_beacon_dfu/src/main.c	/^static void disconnected(struct bt_conn *conn, uint8_t reason)$/;"	f	typeref:typename:void	file:
+dump_queue	32a-bmp280_msgq/src/main.c	/^static void dump_queue(void)$/;"	f	typeref:typename:void	file:
+dump_queue	32b-bmp180_msgq/src/main.c	/^static void dump_queue(void)$/;"	f	typeref:typename:void	file:
+enable_interrupt_work	12-blinky_int_disable/src/main.c	/^ void enable_interrupt_work(struct k_work *work) $/;"	f	typeref:typename:void
+encode_nmea_to_double	14_gnss_nmea/src/main.c	/^double encode_nmea_to_double(const char *nmea_coord, char direction) {$/;"	f	typeref:typename:double
+fade_rgb	06C_blinky_pwm_rgb/src/main.c	/^void fade_rgb(uint8_t from_r, uint8_t from_g, uint8_t from_b,$/;"	f	typeref:typename:void
+fifo_reserved	34-thread_fifo/src/main.c	/^    void *fifo_reserved;$/;"	m	struct:data_sample	typeref:typename:void *	file:
+fifo_reserved	35-uart_async_fifo/src/main.c	/^    void *fifo_reserved;$/;"	m	struct:uart_item	typeref:typename:void *	file:
+fifo_reserved	36-uart_async_fifo_stat/src/main.c	/^    void *fifo_reserved;$/;"	m	struct:uart_item	typeref:typename:void *	file:
+handle_line_work	10-uart_int/src/main.c	/^void handle_line_work(struct k_work *work)$/;"	f	typeref:typename:void
+imu_trigger_handler	18_adxl362_sensor/src/main.c	/^static void imu_trigger_handler(const struct device *dev,$/;"	f	typeref:typename:void	file:
+increment_thread	30-thread_mutex/src/main.c	/^void increment_thread(void)$/;"	f	typeref:typename:void
+is_upright	19_tilt_sensor/src/main.c	/^bool is_upright(const struct sensor_value *accel)$/;"	f	typeref:typename:bool
+is_upright	33_tilt_sensor_msgq/src/main.c	/^static bool is_upright(const struct accel_sample *sample)$/;"	f	typeref:typename:bool	file:
+led	00-blinky/src/main.c	/^static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led	02-blinky_button/src/main.c	/^ static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led	03-blinky_button_int/src/main.c	/^ static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led	04-blinky_button_pool/src/main.c	/^static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led	08-fault_button/src/main.c	/^ static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led	12-blinky_int_disable/src/main.c	/^ static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led	13-button_uart_disable/src/main.c	/^ static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led	21-blinky_timer/src/main.c	/^const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec
+led	22-blinky_nrfx_timer/src/main.c	/^const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec
+led	23-blinky_workqueue/src/main.c	/^const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec
+led	24-blinky_work_delayable/src/main.c	/^const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec
+led0	25-blinky_thread/src/main.c	/^static const struct gpio_dt_spec led0 = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led0	26-blinky_thread_wrkq/src/main.c	/^static const struct gpio_dt_spec led0 = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led0	27-blinky_enigma/src/main.c	/^static const struct gpio_dt_spec led0 = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led0	40-zbus_temp_logger/src/main.c	/^static const struct gpio_dt_spec led0 = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led0_thread	27-blinky_enigma/src/main.c	/^void led0_thread(void)$/;"	f	typeref:typename:void
+led1	25-blinky_thread/src/main.c	/^static const struct gpio_dt_spec led1 = GPIO_DT_SPEC_GET(LED1_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led1	26-blinky_thread_wrkq/src/main.c	/^static const struct gpio_dt_spec led1 = GPIO_DT_SPEC_GET(LED1_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led1	27-blinky_enigma/src/main.c	/^static const struct gpio_dt_spec led1 = GPIO_DT_SPEC_GET(LED1_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led1	40-zbus_temp_logger/src/main.c	/^static const struct gpio_dt_spec led1 = GPIO_DT_SPEC_GET(LED1_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led1_callback	40-zbus_temp_logger/src/main.c	/^static void led1_callback(const struct zbus_channel *chan)$/;"	f	typeref:typename:void	file:
+led1_timer_handler	27-blinky_enigma/src/main.c	/^void led1_timer_handler(struct k_timer *timer)$/;"	f	typeref:typename:void
+led2	26-blinky_thread_wrkq/src/main.c	/^static const struct gpio_dt_spec led2 = GPIO_DT_SPEC_GET(LED2_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led2	27-blinky_enigma/src/main.c	/^static const struct gpio_dt_spec led2 = GPIO_DT_SPEC_GET(LED2_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led2_work	27-blinky_enigma/src/main.c	/^static struct k_work_delayable led2_work;$/;"	v	typeref:struct:k_work_delayable	file:
+led2_work_handler	27-blinky_enigma/src/main.c	/^void led2_work_handler(struct k_work *work)$/;"	f	typeref:typename:void
+led3	26-blinky_thread_wrkq/src/main.c	/^static const struct gpio_dt_spec led3 = GPIO_DT_SPEC_GET(LED3_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led_ctrl	19_tilt_sensor/src/main.c	/^static const struct gpio_dt_spec led_ctrl = GPIO_DT_SPEC_GET(LED1_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led_ctrl	33_tilt_sensor_msgq/src/main.c	/^static const struct gpio_dt_spec led_ctrl = GPIO_DT_SPEC_GET(LED1_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led_dev	19_tilt_sensor/src/main.c	/^static const struct gpio_dt_spec led_dev = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led_dev	20_motion_int_sensor/src/main.c	/^static const struct gpio_dt_spec led_dev = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+led_dev	33_tilt_sensor_msgq/src/main.c	/^static const struct gpio_dt_spec led_dev = GPIO_DT_SPEC_GET(LED0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+len	35-uart_async_fifo/src/main.c	/^    size_t len;$/;"	m	struct:uart_item	typeref:typename:size_t	file:
+len	36-uart_async_fifo_stat/src/main.c	/^    size_t len;$/;"	m	struct:uart_item	typeref:typename:size_t	file:
+length	11-uart_async/src/main.c	/^	 int length;$/;"	m	struct:msgq_item_t	typeref:typename:int	file:
+load_switch	05-custom_gpio/src/main.c	/^static const struct gpio_dt_spec load_switch =$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+logger_thread	40-zbus_temp_logger/src/main.c	/^void logger_thread(void)$/;"	f	typeref:typename:void
+lsm6dsl	17_lsm6dsl_dt/src/main.c	/^static const struct i2c_dt_spec lsm6dsl = I2C_DT_SPEC_GET(LSM6DSL_NODE);$/;"	v	typeref:typename:const struct i2c_dt_spec	file:
+main	00-blinky/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	01-hello_world/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	02-blinky_button/src/main.c	/^ int main(void)$/;"	f	typeref:typename:int
+main	03-blinky_button_int/src/main.c	/^ int main(void)$/;"	f	typeref:typename:int
+main	04-blinky_button_pool/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	05-custom_gpio/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	06A-blinky_pwm_hw/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	06B-blinky_pwm_sw/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	06C_blinky_pwm_rgb/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	07A-log_subsystem/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	07B-log_subsystem_kconfig/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	07C-log_subsystem_rtt/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	08-fault_button/src/main.c	/^ int main(void)$/;"	f	typeref:typename:int
+main	09-uart_pool/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	10-uart_int/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	11-uart_async/src/main.c	/^ int main(void)$/;"	f	typeref:typename:int
+main	12-blinky_int_disable/src/main.c	/^ int main(void)$/;"	f	typeref:typename:int
+main	13-button_uart_disable/src/main.c	/^ int main(void)$/;"	f	typeref:typename:int
+main	14_gnss_nmea/src/main.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	15_i2c_scanner/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	16_bmp280_nodt/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	16_lsm6dsl_nodt/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	17_adxl362_dt/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	17_bmp280_dt/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	17_lsm6dsl_dt/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	18_adxl362_sensor/src/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	18_bme680_sensor/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	18_bmp280_sensor/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	18_lsm6dsl_sensor/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	19_tilt_sensor/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	20_motion_int_sensor/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	21-blinky_timer/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	22-blinky_nrfx_timer/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	23-blinky_workqueue/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	24-blinky_work_delayable/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	25-blinky_thread/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	26-blinky_thread_wrkq/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	27-blinky_enigma/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	28-thread_shared_var/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	29-thread_semaphore/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	30-thread_mutex/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	31-thread_msgq/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	32a-bmp280_msgq/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	32b-bmp180_msgq/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	33_tilt_sensor_msgq/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	34-thread_fifo/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	35-uart_async_fifo/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	36-uart_async_fifo_stat/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	37-zbus_pub_sub/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	38-zbus_pub_lis/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	39-zbus_pub_msub/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	40-zbus_temp_logger/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	41-beacon/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	42-bmp180_beacon/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	43-bmp180_uuid128/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	44-bmp180_beacon_conn/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	45-bmp180_beacon_gatt/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+main	46-bmp180_beacon_dfu/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+mfg_data	42-bmp180_beacon/src/main.c	/^static uint8_t mfg_data[5] = { 0xFF, 0xFF, SENSOR_TYPE, 0x00, 0x00 };$/;"	v	typeref:typename:uint8_t[5]	file:
+mfg_data	44-bmp180_beacon_conn/src/main.c	/^static uint8_t mfg_data[5] = { 0xFF, 0xFF, SENSOR_TYPE, 0x00, 0x00 };$/;"	v	typeref:typename:uint8_t[5]	file:
+mfg_data	45-bmp180_beacon_gatt/src/main.c	/^static uint8_t mfg_data[5] = { 0xFF, 0xFF, SENSOR_TYPE, 0x00, 0x00 };$/;"	v	typeref:typename:uint8_t[5]	file:
+mfg_data	46-bmp180_beacon_dfu/src/main.c	/^static uint8_t mfg_data[5] = { 0xFF, 0xFF, SENSOR_TYPE, 0x00, 0x00 };$/;"	v	typeref:typename:uint8_t[5]	file:
+motion_active	20_motion_int_sensor/src/main.c	/^static bool motion_active = false;$/;"	v	typeref:typename:bool	file:
+msgq_item_t	11-uart_async/src/main.c	/^ struct msgq_item_t {$/;"	s	file:
+on_sampling_interval_read	45-bmp180_beacon_gatt/src/temperature_sensor_service.c	/^static ssize_t on_sampling_interval_read(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+on_sampling_interval_read	46-bmp180_beacon_dfu/src/temperature_sensor_service.c	/^static ssize_t on_sampling_interval_read(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+on_sampling_interval_read	scripts/temperature_sensor_service.c	/^static ssize_t on_sampling_interval_read(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+on_sampling_interval_write	45-bmp180_beacon_gatt/src/temperature_sensor_service.c	/^static ssize_t on_sampling_interval_write(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+on_sampling_interval_write	46-bmp180_beacon_dfu/src/temperature_sensor_service.c	/^static ssize_t on_sampling_interval_write(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+on_sampling_interval_write	scripts/temperature_sensor_service.c	/^static ssize_t on_sampling_interval_write(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+on_temp_data_read	45-bmp180_beacon_gatt/src/temperature_sensor_service.c	/^static ssize_t on_temp_data_read(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+on_temp_data_read	46-bmp180_beacon_dfu/src/temperature_sensor_service.c	/^static ssize_t on_temp_data_read(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+on_temp_data_read	scripts/temperature_sensor_service.c	/^static ssize_t on_temp_data_read(struct bt_conn *conn, const struct bt_gatt_attr *attr,$/;"	f	typeref:typename:ssize_t	file:
+press	32a-bmp280_msgq/src/main.c	/^    struct sensor_value press;$/;"	m	struct:bmp280_msg	typeref:struct:sensor_value	file:
+print_heap_stats	36-uart_async_fifo_stat/src/main.c	/^void print_heap_stats(void)$/;"	f	typeref:typename:void
+print_uart	10-uart_int/src/main.c	/^void print_uart(const char *buf)$/;"	f	typeref:typename:void
+process_nmea_sentence	14_gnss_nmea/src/main.c	/^void process_nmea_sentence(char *nmea) {$/;"	f	typeref:typename:void
+process_thread	40-zbus_temp_logger/src/main.c	/^void process_thread(void)$/;"	f	typeref:typename:void
+producer_thread	28-thread_shared_var/src/main.c	/^void producer_thread(void)$/;"	f	typeref:typename:void
+producer_thread	29-thread_semaphore/src/main.c	/^void producer_thread(void)$/;"	f	typeref:typename:void
+producer_thread	31-thread_msgq/src/main.c	/^void producer_thread(void)$/;"	f	typeref:typename:void
+producer_thread	34-thread_fifo/src/main.c	/^void producer_thread(void)$/;"	f	typeref:typename:void
+producer_thread	37-zbus_pub_sub/src/main.c	/^void producer_thread(void)$/;"	f	typeref:typename:void
+producer_thread	38-zbus_pub_lis/src/main.c	/^static void producer_thread(void)$/;"	f	typeref:typename:void	file:
+producer_thread	39-zbus_pub_msub/src/main.c	/^void producer_thread(void)$/;"	f	typeref:typename:void
+pwm_blue	06C_blinky_pwm_rgb/src/main.c	/^static const struct pwm_dt_spec pwm_blue  = PWM_DT_SPEC_GET(PWM_BLUE_NODE);$/;"	v	typeref:typename:const struct pwm_dt_spec	file:
+pwm_green	06C_blinky_pwm_rgb/src/main.c	/^static const struct pwm_dt_spec pwm_green = PWM_DT_SPEC_GET(PWM_GREEN_NODE);$/;"	v	typeref:typename:const struct pwm_dt_spec	file:
+pwm_led	06A-blinky_pwm_hw/src/main.c	/^static const struct pwm_dt_spec pwm_led = PWM_DT_SPEC_GET(PWM_LED_NODE);$/;"	v	typeref:typename:const struct pwm_dt_spec	file:
+pwm_led	06B-blinky_pwm_sw/src/main.c	/^static const struct pwm_dt_spec pwm_led = PWM_DT_SPEC_GET(PWM_LED_NODE);$/;"	v	typeref:typename:const struct pwm_dt_spec	file:
+pwm_red	06C_blinky_pwm_rgb/src/main.c	/^static const struct pwm_dt_spec pwm_red   = PWM_DT_SPEC_GET(PWM_RED_NODE);$/;"	v	typeref:typename:const struct pwm_dt_spec	file:
+read_axis	17_adxl362_dt/src/main.c	/^int16_t read_axis(uint8_t reg_base)$/;"	f	typeref:typename:int16_t
+recycled	44-bmp180_beacon_conn/src/main.c	/^static void recycled(void)$/;"	f	typeref:typename:void	file:
+recycled	45-bmp180_beacon_gatt/src/main.c	/^static void recycled(void)$/;"	f	typeref:typename:void	file:
+recycled	46-bmp180_beacon_dfu/src/main.c	/^static void recycled(void)$/;"	f	typeref:typename:void	file:
+rx_buf	10-uart_int/src/main.c	/^static char rx_buf[MSG_SIZE];$/;"	v	typeref:typename:char[]	file:
+rx_buf	11-uart_async/src/main.c	/^ static char rx_buf[MSG_SIZE];$/;"	v	typeref:typename:char[]	file:
+rx_buf_pos	10-uart_int/src/main.c	/^static int rx_buf_pos = 0;$/;"	v	typeref:typename:int	file:
+rx_dma_buf	35-uart_async_fifo/src/main.c	/^static uint8_t rx_dma_buf[RX_BUF_SIZE];$/;"	v	typeref:typename:uint8_t[]	file:
+rx_dma_buf	36-uart_async_fifo_stat/src/main.c	/^static uint8_t rx_dma_buf[RX_BUF_SIZE];$/;"	v	typeref:typename:uint8_t[]	file:
+rx_line_buf	35-uart_async_fifo/src/main.c	/^static uint8_t rx_line_buf[RX_BUF_SIZE];$/;"	v	typeref:typename:uint8_t[]	file:
+rx_line_buf	36-uart_async_fifo_stat/src/main.c	/^static uint8_t rx_line_buf[RX_BUF_SIZE];$/;"	v	typeref:typename:uint8_t[]	file:
+rx_pos	35-uart_async_fifo/src/main.c	/^static size_t rx_pos = 0;$/;"	v	typeref:typename:size_t	file:
+rx_pos	36-uart_async_fifo_stat/src/main.c	/^static size_t rx_pos = 0;$/;"	v	typeref:typename:size_t	file:
+sampling_interval_var	45-bmp180_beacon_gatt/src/main.c	/^uint8_t sampling_interval_var = 5; \/\/ Valor inicial de 5 segundos$/;"	v	typeref:typename:uint8_t
+sampling_interval_var	46-bmp180_beacon_dfu/src/main.c	/^uint8_t sampling_interval_var = 2; \/\/ Valor inicial de 5 segundos$/;"	v	typeref:typename:uint8_t
+sampling_interval_var	scripts/temperature_sensor_service.c	/^static uint8_t sampling_interval_var;$/;"	v	typeref:typename:uint8_t	file:
+sampling_thread	33_tilt_sensor_msgq/src/main.c	/^static void sampling_thread(void)$/;"	f	typeref:typename:void	file:
+sd	41-beacon/src/main.c	/^static const struct bt_data sd[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+sd	42-bmp180_beacon/src/main.c	/^static const struct bt_data sd[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+sd	43-bmp180_uuid128/src/main.c	/^static const struct bt_data sd[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+sd	44-bmp180_beacon_conn/src/main.c	/^static const struct bt_data sd[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+sd	45-bmp180_beacon_gatt/src/main.c	/^static const struct bt_data sd[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+sd	46-bmp180_beacon_dfu/src/main.c	/^static const struct bt_data sd[] = {$/;"	v	typeref:typename:const struct bt_data[]	file:
+send_temp_data_notification	45-bmp180_beacon_gatt/src/temperature_sensor_service.c	/^int send_temp_data_notification(int16_t temp_data)$/;"	f	typeref:typename:int
+send_temp_data_notification	46-bmp180_beacon_dfu/src/temperature_sensor_service.c	/^int send_temp_data_notification(int16_t temp_data)$/;"	f	typeref:typename:int
+send_temp_data_notification	scripts/temperature_sensor_service.c	/^int send_temp_data_notification(int16_t temp_data)$/;"	f	typeref:typename:int
+sensor_thread	32a-bmp280_msgq/src/main.c	/^void sensor_thread(void)$/;"	f	typeref:typename:void
+sensor_thread	32b-bmp180_msgq/src/main.c	/^void sensor_thread(void)$/;"	f	typeref:typename:void
+sensor_thread	40-zbus_temp_logger/src/main.c	/^void sensor_thread(void)$/;"	f	typeref:typename:void
+sensor_timer_handler	42-bmp180_beacon/src/main.c	/^static void sensor_timer_handler(struct k_timer *timer)$/;"	f	typeref:typename:void	file:
+sensor_timer_handler	43-bmp180_uuid128/src/main.c	/^static void sensor_timer_handler(struct k_timer *timer)$/;"	f	typeref:typename:void	file:
+sensor_timer_handler	44-bmp180_beacon_conn/src/main.c	/^static void sensor_timer_handler(struct k_timer *timer)$/;"	f	typeref:typename:void	file:
+sensor_timer_handler	45-bmp180_beacon_gatt/src/main.c	/^static void sensor_timer_handler(struct k_timer *timer)$/;"	f	typeref:typename:void	file:
+sensor_timer_handler	46-bmp180_beacon_dfu/src/main.c	/^static void sensor_timer_handler(struct k_timer *timer)$/;"	f	typeref:typename:void	file:
+sensor_work_handler	42-bmp180_beacon/src/main.c	/^static void sensor_work_handler(struct k_work *work)$/;"	f	typeref:typename:void	file:
+sensor_work_handler	43-bmp180_uuid128/src/main.c	/^static void sensor_work_handler(struct k_work *work)$/;"	f	typeref:typename:void	file:
+sensor_work_handler	44-bmp180_beacon_conn/src/main.c	/^static void sensor_work_handler(struct k_work *work)$/;"	f	typeref:typename:void	file:
+sensor_work_handler	45-bmp180_beacon_gatt/src/main.c	/^static void sensor_work_handler(struct k_work *work)$/;"	f	typeref:typename:void	file:
+sensor_work_handler	46-bmp180_beacon_dfu/src/main.c	/^static void sensor_work_handler(struct k_work *work)$/;"	f	typeref:typename:void	file:
+serial_cb	10-uart_int/src/main.c	/^void serial_cb(const struct device *dev, void *user_data)$/;"	f	typeref:typename:void
+shared_data	28-thread_shared_var/src/main.c	/^static uint32_t shared_data;$/;"	v	typeref:typename:uint32_t	file:
+shared_data	29-thread_semaphore/src/main.c	/^static uint32_t shared_data;$/;"	v	typeref:typename:uint32_t	file:
+simulate_logging	07A-log_subsystem/src/main.c	/^void simulate_logging(void)$/;"	f	typeref:typename:void
+simulate_logging	07B-log_subsystem_kconfig/src/main.c	/^void simulate_logging(void)$/;"	f	typeref:typename:void
+simulate_logging	07C-log_subsystem_rtt/src/main.c	/^void simulate_logging(void)$/;"	f	typeref:typename:void
+spi_adxl362	17_adxl362_dt/src/main.c	/^static const struct spi_dt_spec spi_adxl362 = SPI_DT_SPEC_GET(SPI_NODE, SPIOP, 0);$/;"	v	typeref:typename:const struct spi_dt_spec	file:
+stop_motion_handler	20_motion_int_sensor/src/main.c	/^void stop_motion_handler(struct k_work *work)$/;"	f	typeref:typename:void
+stop_motion_work	20_motion_int_sensor/src/main.c	/^static struct k_work_delayable stop_motion_work;$/;"	v	typeref:struct:k_work_delayable	file:
+svc_data128	43-bmp180_uuid128/src/main.c	/^static uint8_t svc_data128[19] = {$/;"	v	typeref:typename:uint8_t[19]	file:
+sw0	04-blinky_button_pool/src/main.c	/^static const struct gpio_dt_spec sw0 = GPIO_DT_SPEC_GET(SW0_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+sw0_cb_data	04-blinky_button_pool/src/main.c	/^static struct gpio_callback sw0_cb_data, sw1_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+sw0_pressed	04-blinky_button_pool/src/main.c	/^void sw0_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t pins)$/;"	f	typeref:typename:void
+sw0_signal	04-blinky_button_pool/src/main.c	/^static struct k_poll_signal sw0_signal = K_POLL_SIGNAL_INITIALIZER(sw0_signal);$/;"	v	typeref:struct:k_poll_signal	file:
+sw1	04-blinky_button_pool/src/main.c	/^static const struct gpio_dt_spec sw1 = GPIO_DT_SPEC_GET(SW1_NODE, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec	file:
+sw1_cb_data	04-blinky_button_pool/src/main.c	/^static struct gpio_callback sw0_cb_data, sw1_cb_data;$/;"	v	typeref:struct:gpio_callback	file:
+sw1_pressed	04-blinky_button_pool/src/main.c	/^void sw1_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t pins)$/;"	f	typeref:typename:void
+sw1_signal	04-blinky_button_pool/src/main.c	/^static struct k_poll_signal sw1_signal = K_POLL_SIGNAL_INITIALIZER(sw1_signal);$/;"	v	typeref:struct:k_poll_signal	file:
+t_fine	16_bmp280_nodt/src/main.c	/^static int32_t t_fine;$/;"	v	typeref:typename:int32_t	file:
+t_fine	17_bmp280_dt/src/main.c	/^static int32_t t_fine;$/;"	v	typeref:typename:int32_t	file:
+temp	32a-bmp280_msgq/src/main.c	/^    struct sensor_value temp;$/;"	m	struct:bmp280_msg	typeref:struct:sensor_value	file:
+temp	32b-bmp180_msgq/src/main.c	/^    struct sensor_value temp;$/;"	m	struct:bmp180_msg	typeref:struct:sensor_value	file:
+temp_data_ccc_change	45-bmp180_beacon_gatt/src/temperature_sensor_service.c	/^static void temp_data_ccc_change(const struct bt_gatt_attr *attr, uint16_t value)$/;"	f	typeref:typename:void	file:
+temp_data_ccc_change	46-bmp180_beacon_dfu/src/temperature_sensor_service.c	/^static void temp_data_ccc_change(const struct bt_gatt_attr *attr, uint16_t value)$/;"	f	typeref:typename:void	file:
+temp_data_ccc_change	scripts/temperature_sensor_service.c	/^static void temp_data_ccc_change(const struct bt_gatt_attr *attr, uint16_t value)$/;"	f	typeref:typename:void	file:
+temp_data_notify_enabled	45-bmp180_beacon_gatt/src/temperature_sensor_service.c	/^bool temp_data_notify_enabled;$/;"	v	typeref:typename:bool
+temp_data_notify_enabled	46-bmp180_beacon_dfu/src/temperature_sensor_service.c	/^bool temp_data_notify_enabled;$/;"	v	typeref:typename:bool
+temp_data_notify_enabled	scripts/temperature_sensor_service.c	/^bool temp_data_notify_enabled;$/;"	v	typeref:typename:bool
+temp_data_var	45-bmp180_beacon_gatt/src/temperature_sensor_service.c	/^static int16_t temp_data_var;$/;"	v	typeref:typename:int16_t	file:
+temp_data_var	46-bmp180_beacon_dfu/src/temperature_sensor_service.c	/^static int16_t temp_data_var;$/;"	v	typeref:typename:int16_t	file:
+temp_data_var	scripts/temperature_sensor_service.c	/^static int16_t temp_data_var;$/;"	v	typeref:typename:int16_t	file:
+temperature_sensor_service_init	45-bmp180_beacon_gatt/src/temperature_sensor_service.c	/^int temperature_sensor_service_init(void) {$/;"	f	typeref:typename:int
+temperature_sensor_service_init	46-bmp180_beacon_dfu/src/temperature_sensor_service.c	/^int temperature_sensor_service_init(void) {$/;"	f	typeref:typename:int
+temperature_sensor_service_init	scripts/temperature_sensor_service.c	/^int temperature_sensor_service_init(void) {$/;"	f	typeref:typename:int
+thread_led0	25-blinky_thread/src/main.c	/^void thread_led0(void)$/;"	f	typeref:typename:void
+thread_led0	26-blinky_thread_wrkq/src/main.c	/^void thread_led0(void)$/;"	f	typeref:typename:void
+thread_led1	25-blinky_thread/src/main.c	/^void thread_led1(void)$/;"	f	typeref:typename:void
+thread_led1	26-blinky_thread_wrkq/src/main.c	/^void thread_led1(void)$/;"	f	typeref:typename:void
+tilt_thread	33_tilt_sensor_msgq/src/main.c	/^static void tilt_thread(void)$/;"	f	typeref:typename:void	file:
+timer_event_handler	22-blinky_nrfx_timer/src/main.c	/^void timer_event_handler(nrf_timer_event_t event_type, void *p_context)$/;"	f	typeref:typename:void
+timer_handler	21-blinky_timer/src/main.c	/^void timer_handler(struct k_timer *timer_id)$/;"	f	typeref:typename:void
+timer_handler	23-blinky_workqueue/src/main.c	/^void timer_handler(struct k_timer *timer_id)$/;"	f	typeref:typename:void
+timer_inst	22-blinky_nrfx_timer/src/main.c	/^static nrfx_timer_t timer_inst = NRFX_TIMER_INSTANCE(2);$/;"	v	typeref:typename:nrfx_timer_t	file:
+timer_inst	22-blinky_nrfx_timer/src/main.c	/^static nrfx_timer_t timer_inst = NRFX_TIMER_INSTANCE(22);$/;"	v	typeref:typename:nrfx_timer_t	file:
+timer_thread	40-zbus_temp_logger/src/main.c	/^void timer_thread(void)$/;"	f	typeref:typename:void
+timestamp	31-thread_msgq/src/main.c	/^    uint32_t timestamp;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+timestamp	33_tilt_sensor_msgq/src/main.c	/^    uint32_t timestamp;$/;"	m	struct:accel_sample	typeref:typename:uint32_t	file:
+timestamp	34-thread_fifo/src/main.c	/^    uint32_t timestamp;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+timestamp	37-zbus_pub_sub/src/main.c	/^    uint32_t timestamp;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+timestamp	38-zbus_pub_lis/src/main.c	/^    uint32_t timestamp;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+timestamp	39-zbus_pub_msub/src/main.c	/^    uint32_t timestamp;$/;"	m	struct:data_sample	typeref:typename:uint32_t	file:
+timestamp_counter	31-thread_msgq/src/main.c	/^int timestamp_counter = 0;$/;"	v	typeref:typename:int
+timestamp_counter	34-thread_fifo/src/main.c	/^int timestamp_counter = 0;$/;"	v	typeref:typename:int
+timestamp_counter	37-zbus_pub_sub/src/main.c	/^int timestamp_counter = 0;$/;"	v	typeref:typename:int
+timestamp_counter	39-zbus_pub_msub/src/main.c	/^int timestamp_counter = 0;$/;"	v	typeref:typename:int
+to_int16	16_lsm6dsl_nodt/src/main.c	/^static int16_t to_int16(uint8_t lsb, uint8_t msb)$/;"	f	typeref:typename:int16_t	file:
+to_int16	17_lsm6dsl_dt/src/main.c	/^static int16_t to_int16(uint8_t lsb, uint8_t msb)$/;"	f	typeref:typename:int16_t	file:
+uart	09-uart_pool/src/main.c	/^const struct device *uart = DEVICE_DT_GET(UART_NODE);$/;"	v	typeref:typename:const struct device *
+uart	14_gnss_nmea/src/main.c	/^const struct device *uart = DEVICE_DT_GET(UART_NODE);$/;"	v	typeref:typename:const struct device *
+uart_active	13-button_uart_disable/src/main.c	/^ static bool uart_active = true;$/;"	v	typeref:typename:bool	file:
+uart_cb	11-uart_async/src/main.c	/^ static void uart_cb(const struct device *dev, struct uart_event *evt, void *user_data)$/;"	f	typeref:typename:void	file:
+uart_cb	14_gnss_nmea/src/main.c	/^static void uart_cb(const struct device *dev, void *user_data) {$/;"	f	typeref:typename:void	file:
+uart_cb	35-uart_async_fifo/src/main.c	/^static void uart_cb(const struct device *dev, struct uart_event *evt, void *user_data)$/;"	f	typeref:typename:void	file:
+uart_cb	36-uart_async_fifo_stat/src/main.c	/^static void uart_cb(const struct device *dev, struct uart_event *evt, void *user_data)$/;"	f	typeref:typename:void	file:
+uart_console	13-button_uart_disable/src/main.c	/^ static const struct device *uart_console = DEVICE_DT_GET(DT_CHOSEN(zephyr_console));$/;"	v	typeref:typename:const struct device *	file:
+uart_dev	10-uart_int/src/main.c	/^static const struct device *uart_dev = DEVICE_DT_GET(UART_DEVICE_NODE);$/;"	v	typeref:typename:const struct device *	file:
+uart_dev	11-uart_async/src/main.c	/^ static const struct device *uart_dev = DEVICE_DT_GET(UART_DEVICE_NODE);$/;"	v	typeref:typename:const struct device *	file:
+uart_dev	35-uart_async_fifo/src/main.c	/^static const struct device *uart_dev = DEVICE_DT_GET(UART_NODE);$/;"	v	typeref:typename:const struct device *	file:
+uart_dev	36-uart_async_fifo_stat/src/main.c	/^static const struct device *uart_dev = DEVICE_DT_GET(UART_NODE);$/;"	v	typeref:typename:const struct device *	file:
+uart_init	14_gnss_nmea/src/main.c	/^int uart_init(void) {$/;"	f	typeref:typename:int
+uart_item	35-uart_async_fifo/src/main.c	/^struct uart_item {$/;"	s	file:
+uart_item	36-uart_async_fifo_stat/src/main.c	/^struct uart_item {$/;"	s	file:
+uart_send_fn	11-uart_async/src/main.c	/^ void uart_send_fn(void *a, void *b, void *c)$/;"	f	typeref:typename:void
+update_sensor_timer_interval	45-bmp180_beacon_gatt/src/main.c	/^void update_sensor_timer_interval(uint32_t interval_sec)$/;"	f	typeref:typename:void
+update_sensor_timer_interval	46-bmp180_beacon_dfu/src/main.c	/^void update_sensor_timer_interval(uint32_t interval_sec)$/;"	f	typeref:typename:void
+work_handler	23-blinky_workqueue/src/main.c	/^void work_handler(struct k_work *work)$/;"	f	typeref:typename:void
+work_handler	24-blinky_work_delayable/src/main.c	/^void work_handler(struct k_work *work)$/;"	f	typeref:typename:void
+work_handler_led2	26-blinky_thread_wrkq/src/main.c	/^void work_handler_led2(struct k_work *work)$/;"	f	typeref:typename:void
+work_handler_led3	26-blinky_thread_wrkq/src/main.c	/^void work_handler_led3(struct k_work *work)$/;"	f	typeref:typename:void
+x	33_tilt_sensor_msgq/src/main.c	/^    struct sensor_value x;$/;"	m	struct:accel_sample	typeref:struct:sensor_value	file:
+y	33_tilt_sensor_msgq/src/main.c	/^    struct sensor_value y;$/;"	m	struct:accel_sample	typeref:struct:sensor_value	file:
+z	33_tilt_sensor_msgq/src/main.c	/^    struct sensor_value z;$/;"	m	struct:accel_sample	typeref:struct:sensor_value	file:
